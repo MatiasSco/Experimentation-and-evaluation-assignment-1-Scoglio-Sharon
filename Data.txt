@@ -1,0 +1,920 @@
+///////////////////////////////////////////////
+Array size: 10
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+Sorting state SORTED ASCENDING
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 0.0023     | 0.0113     | 0.0036
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0002     | 0.0019     | 0.0003
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0002     | 0.0015     | 0.0003
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 0.0025     | 0.0099     | 0.0049
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0002     | 0.0065     | 0.0005
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0002     | 0.0007     | 0.0003
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 0.0023     | 0.0117     | 0.0044
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0003     | 0.0007     | 0.0003
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0002     | 0.0008     | 0.0003
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 0.0023     | 0.0543     | 0.0116
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0005     | 0.0022     | 0.0005
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0002     | 0.0006     | 0.0003
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 0.0004     | 0.0008     | 0.0004
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0002     | 0.0005     | 0.0003
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0002     | 0.0006     | 0.0002
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 0.0004     | 0.0008     | 0.0004
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0002     | 0.0003     | 0.0003
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0002     | 0.0003     | 0.0002
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 0.0004     | 0.0005     | 0.0004
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0002     | 0.0008     | 0.0003
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0002     | 0.0113     | 0.0005
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 0.0005     | 0.0008     | 0.0006
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0000     | 0.0002     | 0.0001
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0000     | 0.0002     | 0.0001
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 0.0004     | 0.0007     | 0.0004
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0000     | 0.0004     | 0.0001
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0000     | 0.0001     | 0.0001
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 0.0004     | 0.0008     | 0.0005
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0001     | 0.0004     | 0.0002
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0000     | 0.0002     | 0.0001
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 0.0004     | 0.0005     | 0.0004
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0001     | 0.0003     | 0.0002
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0000     | 0.0008     | 0.0002
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 0.0005     | 0.0066     | 0.0007
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0001     | 0.0002     | 0.0001
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0000     | 0.0002     | 0.0001
+
+///////////////////////////////////////////////
+Sorting state SORTED DESCENDING
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 0.0006     | 0.0011     | 0.0006
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0006     | 0.0011     | 0.0007
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0004     | 0.0009     | 0.0004
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 0.0006     | 0.0030     | 0.0010
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0006     | 0.0017     | 0.0008
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0004     | 0.0011     | 0.0005
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 0.0006     | 0.0140     | 0.0009
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0006     | 0.0010     | 0.0007
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0005     | 0.0007     | 0.0005
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 0.0008     | 0.0089     | 0.0011
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0008     | 0.0020     | 0.0010
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0005     | 0.0009     | 0.0006
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 0.0006     | 0.0044     | 0.0010
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0006     | 0.0010     | 0.0006
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0004     | 0.0093     | 0.0010
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 0.0031     | 0.0125     | 0.0034
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0006     | 0.0038     | 0.0007
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0004     | 0.0008     | 0.0005
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 0.0031     | 0.0042     | 0.0032
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0006     | 0.0007     | 0.0006
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0005     | 0.0005     | 0.0005
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 0.0032     | 0.0075     | 0.0036
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0005     | 0.0071     | 0.0021
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0005     | 0.0012     | 0.0006
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 0.0005     | 0.0010     | 0.0006
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0004     | 0.0005     | 0.0004
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0004     | 0.0057     | 0.0006
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 0.0006     | 0.0010     | 0.0007
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0004     | 0.0023     | 0.0005
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0004     | 0.0005     | 0.0004
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 0.0006     | 0.0010     | 0.0006
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0003     | 0.0005     | 0.0004
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0005     | 0.0006     | 0.0005
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 0.0008     | 0.0013     | 0.0010
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0005     | 0.0011     | 0.0007
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0005     | 0.0008     | 0.0006
+
+///////////////////////////////////////////////
+Sorting state RANDOM ORDER
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 0.0008     | 0.0015     | 0.0009
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0003     | 0.0560     | 0.0019
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0010     | 0.0101     | 0.0020
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 0.0006     | 0.0035     | 0.0008
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0003     | 0.0008     | 0.0005
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0010     | 0.0020     | 0.0015
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 0.0005     | 0.0011     | 0.0007
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0003     | 0.0008     | 0.0005
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0010     | 0.0291     | 0.0032
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 0.0007     | 0.0015     | 0.0010
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0005     | 0.0012     | 0.0007
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0008     | 0.0140     | 0.0021
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 0.0006     | 0.0008     | 0.0007
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0003     | 0.0148     | 0.0007
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0010     | 0.0020     | 0.0015
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 0.0006     | 0.0060     | 0.0008
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0003     | 0.0008     | 0.0005
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0010     | 0.0685     | 0.0031
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 0.0006     | 0.0155     | 0.0016
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0005     | 0.0096     | 0.0013
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0009     | 0.0024     | 0.0015
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 0.0008     | 0.0147     | 0.0019
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0016     | 0.0074     | 0.0028
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0009     | 0.0045     | 0.0016
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 0.0005     | 0.0009     | 0.0006
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0015     | 0.0033     | 0.0023
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0010     | 0.0023     | 0.0016
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 0.0006     | 0.0075     | 0.0008
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0011     | 0.0033     | 0.0022
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0010     | 0.0019     | 0.0015
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 0.0024     | 0.0442     | 0.0039
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0018     | 0.0051     | 0.0035
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0015     | 0.0031     | 0.0024
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 0.0026     | 0.0033     | 0.0030
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0006     | 0.0182     | 0.0019
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0003     | 0.0013     | 0.0005
+
+///////////////////////////////////////////////
+Sorting state SORTED UNTIL 90%
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 0.0022     | 0.0105     | 0.0031
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0000     | 0.0045     | 0.0004
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0000     | 0.0025     | 0.0002
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 0.0002     | 0.0035     | 0.0018
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0000     | 0.0005     | 0.0003
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0000     | 0.0073     | 0.0003
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 0.0002     | 0.0088     | 0.0006
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0001     | 0.0077     | 0.0005
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0000     | 0.0003     | 0.0001
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 0.0004     | 0.0011     | 0.0007
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0006     | 0.0012     | 0.0009
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0002     | 0.0006     | 0.0004
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 0.0003     | 0.0004     | 0.0003
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0001     | 0.0005     | 0.0003
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0000     | 0.0003     | 0.0001
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 0.0003     | 0.0004     | 0.0003
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0001     | 0.0005     | 0.0003
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0000     | 0.0002     | 0.0001
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 0.0003     | 0.0003     | 0.0003
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0001     | 0.0005     | 0.0003
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0000     | 0.0002     | 0.0001
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 0.0004     | 0.0098     | 0.0009
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0015     | 0.0021     | 0.0017
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0005     | 0.0010     | 0.0007
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 0.0006     | 0.0010     | 0.0007
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0000     | 0.0006     | 0.0003
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0000     | 0.0003     | 0.0001
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 0.0003     | 0.0003     | 0.0003
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0001     | 0.0005     | 0.0003
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0000     | 0.0003     | 0.0001
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 0.0002     | 0.0003     | 0.0003
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0001     | 0.0071     | 0.0004
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0000     | 0.0003     | 0.0001
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 0.0004     | 0.0010     | 0.0006
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0015     | 0.0026     | 0.0018
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0002     | 0.0006     | 0.0003
+
+///////////////////////////////////////////////
+Array size: 100
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+Sorting state SORTED ASCENDING
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 0.0225     | 0.0976     | 0.0305
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0005     | 0.0183     | 0.0011
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0003     | 0.0013     | 0.0005
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 0.0218     | 0.0829     | 0.0253
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0005     | 0.0242     | 0.0014
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0003     | 0.0004     | 0.0003
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 0.0220     | 0.0241     | 0.0223
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0004     | 0.0006     | 0.0004
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0003     | 0.0003     | 0.0003
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 0.0367     | 0.0924     | 0.0436
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0006     | 0.0143     | 0.0011
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0005     | 0.0009     | 0.0006
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 0.0228     | 0.0733     | 0.0280
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0002     | 0.0015     | 0.0005
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0007     | 0.0115     | 0.0010
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 0.0219     | 0.1272     | 0.0291
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0003     | 0.0003     | 0.0003
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0003     | 0.0012     | 0.0004
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 0.0215     | 0.1282     | 0.0444
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0003     | 0.0004     | 0.0003
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0003     | 0.0004     | 0.0003
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 0.0362     | 0.1050     | 0.0437
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0005     | 0.0009     | 0.0007
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0005     | 0.0008     | 0.0006
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 0.0226     | 0.0240     | 0.0228
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0003     | 0.0004     | 0.0003
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0003     | 0.0010     | 0.0005
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 0.0219     | 0.0715     | 0.0311
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0003     | 0.0022     | 0.0004
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0003     | 0.0005     | 0.0003
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 0.0220     | 0.0227     | 0.0223
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0003     | 0.0006     | 0.0003
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0003     | 0.0011     | 0.0007
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 0.0371     | 0.0500     | 0.0407
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0005     | 0.0008     | 0.0007
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0005     | 0.0015     | 0.0007
+
+///////////////////////////////////////////////
+Sorting state SORTED DESCENDING
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 0.0283     | 0.0734     | 0.0309
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0308     | 0.0715     | 0.0324
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0178     | 0.0217     | 0.0181
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 0.0279     | 0.0874     | 0.0309
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0315     | 0.0895     | 0.0363
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0184     | 0.0192     | 0.0185
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 0.0279     | 0.0804     | 0.0307
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0313     | 0.1001     | 0.0362
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0185     | 0.0264     | 0.0188
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 0.0427     | 0.1183     | 0.0520
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0471     | 0.1311     | 0.0581
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0248     | 0.0871     | 0.0313
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 0.0285     | 0.0866     | 0.0325
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0308     | 0.0673     | 0.0324
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0180     | 0.0217     | 0.0183
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 0.0288     | 0.0330     | 0.0293
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0311     | 0.1885     | 0.0401
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0184     | 0.0193     | 0.0186
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 0.0287     | 0.0338     | 0.0292
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0310     | 0.0896     | 0.0386
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0186     | 0.0335     | 0.0192
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 0.0415     | 0.0551     | 0.0483
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0480     | 0.1298     | 0.0562
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0260     | 0.1444     | 0.0353
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 0.0283     | 0.1261     | 0.0356
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0309     | 0.0721     | 0.0334
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0178     | 0.0183     | 0.0179
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 0.0280     | 0.1018     | 0.0327
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0310     | 0.0913     | 0.0335
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0185     | 0.0188     | 0.0186
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 0.0283     | 0.0906     | 0.0315
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0308     | 0.0334     | 0.0313
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0185     | 0.0219     | 0.0188
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 0.0446     | 0.0846     | 0.0506
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0477     | 0.0573     | 0.0515
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0240     | 0.0868     | 0.0316
+
+///////////////////////////////////////////////
+Sorting state RANDOM ORDER
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 0.0326     | 0.0660     | 0.0357
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0284     | 0.0392     | 0.0345
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0210     | 0.0245     | 0.0231
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 0.0328     | 0.0953     | 0.0450
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0325     | 0.0418     | 0.0358
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0228     | 0.0265     | 0.0247
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 0.0359     | 0.0415     | 0.0382
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0275     | 0.0838     | 0.0378
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0228     | 0.0535     | 0.0260
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 0.0522     | 0.0768     | 0.0593
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0474     | 0.2200     | 0.0655
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0329     | 0.0769     | 0.0418
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 0.0326     | 0.0360     | 0.0337
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0280     | 0.0372     | 0.0329
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0216     | 0.0584     | 0.0255
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 0.0342     | 0.0753     | 0.0387
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0290     | 0.0463     | 0.0326
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0215     | 0.0317     | 0.0248
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 0.0303     | 0.0470     | 0.0353
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0303     | 0.0799     | 0.0374
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0215     | 0.0645     | 0.0250
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 0.0480     | 0.0643     | 0.0554
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0431     | 0.1701     | 0.0613
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0295     | 0.0494     | 0.0367
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 0.0293     | 0.0344     | 0.0307
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0284     | 0.0426     | 0.0326
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0213     | 0.0419     | 0.0238
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 0.0308     | 0.0332     | 0.0321
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0279     | 0.0408     | 0.0327
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0230     | 0.0257     | 0.0245
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 0.0333     | 0.0813     | 0.0395
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0304     | 0.7208     | 0.0786
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0238     | 0.6010     | 0.0638
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 0.0532     | 0.3760     | 0.1081
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0478     | 0.3834     | 0.0831
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0308     | 0.3063     | 0.0684
+
+///////////////////////////////////////////////
+Sorting state SORTED UNTIL 90%
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 0.0245     | 0.1227     | 0.0366
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0154     | 0.0734     | 0.0263
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0118     | 0.0490     | 0.0152
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 0.0230     | 0.0250     | 0.0239
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0169     | 0.0308     | 0.0232
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0133     | 0.0446     | 0.0160
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 0.0212     | 0.0965     | 0.0258
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0120     | 0.0272     | 0.0205
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0120     | 0.0261     | 0.0146
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 0.0393     | 0.0518     | 0.0434
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0386     | 0.0598     | 0.0452
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0208     | 0.0328     | 0.0230
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 0.0214     | 0.0287     | 0.0233
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0110     | 0.0381     | 0.0228
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0117     | 0.0590     | 0.0154
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 0.0210     | 0.0855     | 0.0238
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0143     | 0.0301     | 0.0218
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0112     | 0.0179     | 0.0140
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 0.0207     | 0.0327     | 0.0236
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0136     | 0.0291     | 0.0226
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0111     | 0.0252     | 0.0149
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 0.0366     | 0.0842     | 0.0414
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0378     | 0.0510     | 0.0431
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0213     | 0.0313     | 0.0235
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 0.0218     | 0.0306     | 0.0238
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0150     | 0.0345     | 0.0208
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0112     | 0.0205     | 0.0141
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 0.0223     | 0.0370     | 0.0234
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0135     | 0.1009     | 0.0248
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0110     | 0.0357     | 0.0142
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 0.0210     | 0.0379     | 0.0231
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0161     | 0.0235     | 0.0208
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0110     | 0.0152     | 0.0128
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 0.0353     | 0.0587     | 0.0438
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0361     | 0.0470     | 0.0403
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0200     | 0.0219     | 0.0210
+
+///////////////////////////////////////////////
+Array size: 1000
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+Sorting state SORTED ASCENDING
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 2.0057     | 2.3041     | 2.1080
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 0.0021     | 0.0025     | 0.0021
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 0.0023     | 0.0421     | 0.0044
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 1.9321     | 2.6456     | 2.0466
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 0.0021     | 0.0031     | 0.0022
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 0.0023     | 0.0030     | 0.0024
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 1.8977     | 2.3055     | 2.0357
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 0.0021     | 0.0028     | 0.0022
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 0.0023     | 0.0032     | 0.0025
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 3.6828     | 4.4240     | 3.9785
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 0.0050     | 0.0074     | 0.0057
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 0.0052     | 0.0081     | 0.0060
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 2.1324     | 2.2301     | 2.1762
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 0.0021     | 0.0024     | 0.0022
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 0.0023     | 0.0043     | 0.0025
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 1.8938     | 2.6848     | 2.0637
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 0.0021     | 0.0029     | 0.0022
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 0.0022     | 0.0032     | 0.0023
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 1.9069     | 2.1068     | 1.9996
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 0.0021     | 0.0022     | 0.0021
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 0.0022     | 0.0035     | 0.0025
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 3.8443     | 4.3154     | 4.0817
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 0.0051     | 0.0067     | 0.0056
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 0.0051     | 0.0084     | 0.0058
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 1.9917     | 2.1868     | 2.0776
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 0.0021     | 0.0030     | 0.0022
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 0.0023     | 0.0033     | 0.0024
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 1.9728     | 2.0659     | 2.0193
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 0.0021     | 0.0027     | 0.0022
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 0.0022     | 0.0032     | 0.0024
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 1.9622     | 2.0877     | 2.0092
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 0.0021     | 0.0022     | 0.0021
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 0.0022     | 0.0034     | 0.0024
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 3.7174     | 4.0201     | 3.8927
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 0.0050     | 0.0075     | 0.0056
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 0.0050     | 0.0102     | 0.0058
+
+///////////////////////////////////////////////
+Sorting state SORTED DESCENDING
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 2.4911     | 2.6833     | 2.6090
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 2.8106     | 3.2219     | 2.8648
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 1.5693     | 1.7789     | 1.6511
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 2.5150     | 2.6390     | 2.5432
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 2.8208     | 3.0556     | 2.8513
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 1.6115     | 1.7864     | 1.7302
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 2.5759     | 2.7098     | 2.5969
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 2.6953     | 3.0405     | 2.8634
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 1.6223     | 1.7992     | 1.7269
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 4.1793     | 4.6196     | 4.4594
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 4.2936     | 4.9101     | 4.6619
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 2.4307     | 2.7208     | 2.5908
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 2.5298     | 2.6869     | 2.5925
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 2.7642     | 3.0584     | 2.8720
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 1.6740     | 1.7756     | 1.6955
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 2.4022     | 2.5891     | 2.5192
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 2.6557     | 3.5906     | 2.9595
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 1.6540     | 21.8030    | 2.3069
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 2.5768     | 2.7168     | 2.5981
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 2.6782     | 3.1708     | 2.8987
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 1.7081     | 1.9102     | 1.8019
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 4.2741     | 4.5525     | 4.3815
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 4.4660     | 4.8545     | 4.6880
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 2.4969     | 2.7497     | 2.6209
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 2.5591     | 2.6328     | 2.5872
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 2.8338     | 3.1241     | 2.8680
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 1.6764     | 2.1781     | 1.6981
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 2.5520     | 2.7008     | 2.6087
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 2.7853     | 3.2143     | 2.8557
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 1.6775     | 1.8309     | 1.7265
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 2.5243     | 2.6145     | 2.5706
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 2.8855     | 3.1965     | 2.9113
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 1.6803     | 1.7793     | 1.7254
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 4.3503     | 4.6068     | 4.4910
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 4.4611     | 4.7425     | 4.6203
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 2.5758     | 2.9313     | 2.7019
+
+///////////////////////////////////////////////
+Sorting state RANDOM ORDER
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 2.5892     | 2.9473     | 2.6881
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 2.7153     | 3.8021     | 2.9096
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 1.7102     | 1.9804     | 1.8065
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 2.5436     | 3.2013     | 2.7275
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 2.6598     | 3.5063     | 2.8800
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 1.8319     | 2.4949     | 1.9226
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 2.6878     | 3.2104     | 2.7626
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 2.7942     | 3.0624     | 2.9230
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 1.7148     | 2.0308     | 1.8054
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 4.9275     | 5.4064     | 5.1293
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 5.1184     | 5.8823     | 5.4289
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 3.1808     | 3.5553     | 3.3285
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 2.6315     | 2.8500     | 2.6968
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 2.6554     | 3.0105     | 2.8667
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 1.8063     | 2.0040     | 1.8769
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 2.4995     | 3.0600     | 2.6225
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 2.6997     | 3.0139     | 2.8484
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 1.7702     | 1.9028     | 1.8496
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 2.6894     | 3.1463     | 2.7418
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 2.7613     | 2.9633     | 2.8808
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 1.7117     | 1.9397     | 1.8632
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 4.8923     | 5.3190     | 5.1387
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 4.9515     | 5.9466     | 5.3499
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 3.1098     | 3.4855     | 3.3297
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 2.7067     | 2.9222     | 2.8051
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 2.7562     | 3.0235     | 2.9096
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 1.8197     | 1.9601     | 1.8744
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 2.7015     | 3.2052     | 2.7420
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 2.6753     | 2.8706     | 2.7855
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 1.7738     | 2.0472     | 1.8417
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 2.6032     | 2.6767     | 2.6436
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 2.6797     | 3.0451     | 2.8127
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 1.7421     | 1.8399     | 1.7913
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 5.0035     | 9.9445     | 5.4886
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 4.9109     | 5.4837     | 5.2680
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 3.2168     | 3.6195     | 3.3995
+
+///////////////////////////////////////////////
+Sorting state SORTED UNTIL 90%
+///////////////////////////////////////////////
+Warmup Strategy  | Data type  | Algorithm                | Min (ms)   | Max (ms)   | Average (ms)
+NO WARMUP        | INTEGER    | BubbleSortPassPerItem    | 2.1163     | 2.6479     | 2.2182
+
+NO WARMUP        | INTEGER    | BubbleSortUntilNoChange  | 2.1924     | 2.8020     | 2.3201
+
+NO WARMUP        | INTEGER    | BubbleSortWhileNeeded    | 1.2915     | 1.4078     | 1.3278
+
+NO WARMUP        | DOUBLE     | BubbleSortPassPerItem    | 2.0108     | 2.3373     | 2.1323
+
+NO WARMUP        | DOUBLE     | BubbleSortUntilNoChange  | 2.1891     | 2.4205     | 2.3163
+
+NO WARMUP        | DOUBLE     | BubbleSortWhileNeeded    | 1.2479     | 2.0174     | 1.4218
+
+NO WARMUP        | FLOAT      | BubbleSortPassPerItem    | 2.0834     | 2.9324     | 2.2726
+
+NO WARMUP        | FLOAT      | BubbleSortUntilNoChange  | 2.0937     | 2.4625     | 2.2999
+
+NO WARMUP        | FLOAT      | BubbleSortWhileNeeded    | 1.2365     | 1.5050     | 1.3351
+
+NO WARMUP        | STRING     | BubbleSortPassPerItem    | 3.7966     | 4.1403     | 3.9690
+
+NO WARMUP        | STRING     | BubbleSortUntilNoChange  | 3.9938     | 4.3474     | 4.1381
+
+NO WARMUP        | STRING     | BubbleSortWhileNeeded    | 2.0175     | 2.2277     | 2.1361
+
+SMALL WARMUP     | INTEGER    | BubbleSortPassPerItem    | 2.1172     | 2.5277     | 2.2468
+
+SMALL WARMUP     | INTEGER    | BubbleSortUntilNoChange  | 2.1356     | 2.4119     | 2.2952
+
+SMALL WARMUP     | INTEGER    | BubbleSortWhileNeeded    | 1.2192     | 1.4365     | 1.3215
+
+SMALL WARMUP     | DOUBLE     | BubbleSortPassPerItem    | 2.0132     | 2.2824     | 2.1704
+
+SMALL WARMUP     | DOUBLE     | BubbleSortUntilNoChange  | 2.0110     | 2.4286     | 2.3141
+
+SMALL WARMUP     | DOUBLE     | BubbleSortWhileNeeded    | 1.2823     | 1.3980     | 1.3162
+
+SMALL WARMUP     | FLOAT      | BubbleSortPassPerItem    | 2.0057     | 2.2918     | 2.1402
+
+SMALL WARMUP     | FLOAT      | BubbleSortUntilNoChange  | 2.0682     | 2.4811     | 2.2802
+
+SMALL WARMUP     | FLOAT      | BubbleSortWhileNeeded    | 1.2357     | 1.3860     | 1.3095
+
+SMALL WARMUP     | STRING     | BubbleSortPassPerItem    | 3.9836     | 4.2040     | 4.0907
+
+SMALL WARMUP     | STRING     | BubbleSortUntilNoChange  | 3.9328     | 13.3783    | 4.3874
+
+SMALL WARMUP     | STRING     | BubbleSortWhileNeeded    | 2.0842     | 2.2926     | 2.1644
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortPassPerItem    | 2.1732     | 2.2682     | 2.2223
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortUntilNoChange  | 2.1401     | 2.4219     | 2.2955
+
+COMPLETE WARMUP  | INTEGER    | BubbleSortWhileNeeded    | 1.2274     | 1.3407     | 1.3018
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortPassPerItem    | 2.1401     | 2.1978     | 2.1595
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortUntilNoChange  | 2.1800     | 2.4219     | 2.3034
+
+COMPLETE WARMUP  | DOUBLE     | BubbleSortWhileNeeded    | 1.2719     | 1.3403     | 1.3097
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortPassPerItem    | 2.0670     | 2.2010     | 2.1422
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortUntilNoChange  | 2.1478     | 2.4145     | 2.2918
+
+COMPLETE WARMUP  | FLOAT      | BubbleSortWhileNeeded    | 1.2759     | 1.3663     | 1.3084
+
+COMPLETE WARMUP  | STRING     | BubbleSortPassPerItem    | 3.9722     | 4.3986     | 4.0962
+
+COMPLETE WARMUP  | STRING     | BubbleSortUntilNoChange  | 4.0236     | 4.2578     | 4.1564
+
+COMPLETE WARMUP  | STRING     | BubbleSortWhileNeeded    | 2.0708     | 2.3362     | 2.1832
